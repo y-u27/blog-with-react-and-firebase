@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: center;
+  /* 要素の中央に配置 */
+  align-items: center;
+  height: 50px;
+  background-color: #afeeee;
+  gap: 45px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4682B4;
+  transition: all 0.3;
+}
+
+nav a:hover {
+  color: #136FFF;
+}
+
+nav a svg {
+  margin-right: 5px;
+}
